@@ -3,10 +3,10 @@
 const webpack = require('webpack')
 const path = require('path')
 const packageConfig = require('./package.json')
-// const HtmlWebpackPlugin = require('html-webpack-plugin')
-// const ExtractTextPlugin = require("extract-text-webpack-plugin")
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const ExtractTextPlugin = require("extract-text-webpack-plugin")
 // const prod = process.env.NODE_ENV == 'production'
-// const extractCSS = new ExtractTextPlugin('style.[contenthash:8].css',{disable:!prod})
+const extractCSS = new ExtractTextPlugin('style.css')
 // const parameters = require('./parameters.json')
 // const Imagemin = require('imagemin-webpack-plugin').default
 

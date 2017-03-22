@@ -8,3 +8,9 @@ npm start
 `
 
 Will write all output files in `output/holding/`.
+
+`
+npm run build
+`
+
+Will recompile scss and js
