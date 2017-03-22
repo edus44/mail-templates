@@ -1,10 +1,10 @@
-Mail template maker
+Orchextra PromoSASS Holding pages
 ==========
 
-Generates a html file for each `<template> id` found in the main html file. Also inlines all CSS. View `templates/example.html`
+Generates a html file for each `child` found in the `data/dataTemplates.js`.
 
 `
-node build example
+npm start
 `
 
-Will write all output files in `output/example/*.html`.
+Will write all output files in `output/holding/`.
