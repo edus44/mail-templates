@@ -4,15 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build holding; webpack"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
     "cheerio": "^0.22.0",
     "del": "^2.2.2",
-    "inline-css": "^2.2.2",
+    "fs-extra": "^2.1.2",
     "mkdirp": "^0.5.1",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "webpack": "^2.3.0"
   }
 }
