@@ -7,6 +7,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require("extract-text-webpack-plugin")
 // const prod = process.env.NODE_ENV == 'production'
 const extractCSS = new ExtractTextPlugin('style.css')
+const BabiliPlugin = require("babili-webpack-plugin");
 // const parameters = require('./parameters.json')
 // const Imagemin = require('imagemin-webpack-plugin').default
 
@@ -27,7 +28,10 @@ let config = {
                  exclude: /(node_modules)/
             }
         ]
-    }
+    },
+    plugins: [
+        new BabiliPlugin()
+    ]
 }
 
 
