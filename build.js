@@ -29,6 +29,7 @@ fs.copy(__dirname+'/templates/assets/', __dirname+'/output/assets/', (error)=>{
     }
 });
 
+
 //Init $ instance
 let $ = cheerio.load(template)
 

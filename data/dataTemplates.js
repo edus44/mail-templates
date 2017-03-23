@@ -146,7 +146,7 @@ module.exports = [{
     }
 },{
     id: 'se/sommar',
-    gtm: '',
+    gtm: 'GTM-KGL25FN',
     title:'Coca-Cola Sommar',
     header: {
         desktop: 'summer-2880x887-desktop.jpg',
