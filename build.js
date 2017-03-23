@@ -16,12 +16,12 @@ if (!name)
 const template = fs.readFileSync(__dirname+'/templates/'+name+'.html').toString()
 
 //Output folder
-const output = __dirname+'/output/'+name
+const output = __dirname+'/output/'
 del.sync(output)
 mkdirp.sync(output)
 
 //Copy assets
-fs.copy(__dirname+'/templates/assets/', __dirname+'/output/'+name, (error)=>{
+fs.copy(__dirname+'/templates/assets/', __dirname+'/output/assets/', (error)=>{
     if(error) {
         console.log('error',error)
     } else {
@@ -34,7 +34,9 @@ let $ = cheerio.load(template)
 
 templates.forEach( item => {
     let $c = $('html').clone()
-    let file = output+'/holding-'+item.id+'.html'
+    let dest = output + item.id + '/'
+    mkdirp.sync(dest)
+    let file = dest + 'index.html'
 
     //GTM
     let gtm = item.gtm

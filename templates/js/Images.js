@@ -1,6 +1,7 @@
 export default class Images {
     constructor() {
         this.display = this.checkDisplay()
+        this.folder = '/assets/img/'
         window.onresize = () => {
             this.checkLoader()
         }
@@ -34,7 +35,7 @@ export default class Images {
         } else {
             element.appendChild(preload)
         }
-        let imageSrc = element.getAttribute('data-image-preload-'+this.display)
+        let imageSrc = this.folder + element.getAttribute('data-image-preload-'+this.display)
         let image = new Image()
         image.src = imageSrc
         image.classList.add('fade-enter-active')

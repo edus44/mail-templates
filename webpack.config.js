@@ -15,7 +15,7 @@ let config = {
     entry: __dirname + '/templates/js/index.js',
     devtool: 'source-map',
     output: {
-        path: __dirname + '/output/holding/js',
+        path: __dirname + '/output/assets/js',
         publicPath: './',
         filename: 'index.js'
     },

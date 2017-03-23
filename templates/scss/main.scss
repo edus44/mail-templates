@@ -1,4 +1,7 @@
 @import '_const.scss';
+.test-flex {
+    display:flex;
+}
 
 * {
     margin: $reset;
@@ -170,6 +173,9 @@ footer {
     font-weight:$footer-weight;
     p {
         margin-bottom:$margin-distance;
+        a {
+            border-right:none;
+        }
     }
     ul {
         margin:0 auto;
@@ -320,5 +326,8 @@ span.loading {
         color:$cookies-button-font-color;
         margin:$cookies-button-margin;
         font-size:$footer-fs;
+        &:hover {
+            background-color:darken($cookies-button-bg-color, 10)
+        }
     }
 }

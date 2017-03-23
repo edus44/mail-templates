@@ -1,10 +1,10 @@
 module.exports = [{
-    id: 'fi-fi',
+    id: 'fi/kesa',
     gtm: 'GTM-NJKJS3C',
-    title:'Promo Summer',
+    title:'Coca-Cola Kesa',
     header: {
-        desktop: 'img/summer-2880x887-desktop.jpg',
-        mobile: 'img/summer-768x473-mobile.jpg'
+        desktop: 'summer-2880x887-desktop.jpg',
+        mobile: 'summer-768x473-mobile.jpg'
     },
     section: {
         title: 'Mahdollisuutesi mahtavaan kesään ei ole vielä tässä.',
@@ -37,12 +37,12 @@ module.exports = [{
         buttonText: 'napsauta tästä.'
     }
 },{
-    id: 'ie-en',
+    id: 'ie/summer',
     gtm: 'GTM-KBQKWRF',
-    title:'Promo Summer',
+    title:'Coca-Cola Summer',
     header: {
-        desktop: 'img/summer-2880x887-desktop.jpg',
-        mobile: 'img/summer-768x473-mobile.jpg'
+        desktop: 'summer-2880x887-desktop.jpg',
+        mobile: 'summer-768x473-mobile.jpg'
     },
     section: {
         title: 'YOUR CHANCE TO ENJOY AN AMAZING SUMMER IS COMING SOON…',
@@ -72,12 +72,12 @@ module.exports = [{
         buttonText: 'CONTINUE'
     }
 },{
-    id: 'nl-nl',
+    id: 'nl/summer',
     gtm: 'GTM-PQXC498',
-    title:'Promo Summer',
+    title:'Coca-Cola Summer',
     header: {
-        desktop: 'img/summer-2880x887-desktop.jpg',
-        mobile: 'img/summer-768x473-mobile.jpg'
+        desktop: 'summer-2880x887-desktop.jpg',
+        mobile: 'summer-768x473-mobile.jpg'
     },
     section: {
         title: 'OM KANS TE MAKEN OP EEN GEWELDIGE ZOMER MOET JE NOG EVEN GEDULD HEBBEN.',
@@ -107,12 +107,12 @@ module.exports = [{
         buttonText: 'GA DOOR'
     }
 },{
-    id: 'uk-en',
+    id: 'gb/summer',
     gtm: 'GTM-ML79649',
-    title:'Promo Summer',
+    title:'Coca-Cola Summer',
     header: {
-        desktop: 'img/summer-2880x887-desktop.jpg',
-        mobile: 'img/summer-768x473-mobile.jpg'
+        desktop: 'summer-2880x887-desktop.jpg',
+        mobile: 'summer-768x473-mobile.jpg'
     },
     section: {
         title: 'YOUR CHANCE TO ENJOY AN AMAZING SUMMER IS COMING SOON...',
@@ -145,12 +145,12 @@ module.exports = [{
         buttonText: 'CONTINUE'
     }
 },{
-    id: 'se-se',
+    id: 'se/sommar',
     gtm: '',
-    title:'Promo Summer',
+    title:'Coca-Cola Sommar',
     header: {
-        desktop: 'img/summer-2880x887-desktop.jpg',
-        mobile: 'img/summer-768x473-mobile.jpg'
+        desktop: 'summer-2880x887-desktop.jpg',
+        mobile: 'summer-768x473-mobile.jpg'
     },
     section: {
         title: 'Snart har du chans att vinna din drömsemester',
@@ -183,12 +183,12 @@ module.exports = [{
         buttonText: 'FORTSÄTT'
     }
 },{
-    id: 'no-no',
+    id: 'no/sommer',
     gtm: 'GTM-WQMKQNK',
-    title:'Promo Summer',
+    title:'Coca-Cola Sommer',
     header: {
-        desktop: 'img/summer-2880x887-desktop.jpg',
-        mobile: 'img/summer-768x473-mobile.jpg'
+        desktop: 'summer-2880x887-desktop.jpg',
+        mobile: 'summer-768x473-mobile.jpg'
     },
     section: {
         title: 'DIN SJANSE FOR EN FANTASTISK SOMMER HAR IKKE KOMMET HELT ENNÅ',
@@ -221,12 +221,12 @@ module.exports = [{
         buttonText: 'FORTSETT'
     }
 },{
-    id: 'fr-fr',
+    id: 'fr/ete',
     gtm: 'GTM-N5B65FJ',
-    title:'Promo Summer',
+    title:'Coca-Cola Ete',
     header: {
-        desktop: 'img/summer-2880x887-desktop.jpg',
-        mobile: 'img/summer-768x473-mobile.jpg'
+        desktop: 'summer-2880x887-desktop.jpg',
+        mobile: 'summer-768x473-mobile.jpg'
     },
     section: {
         title: 'Vous avez envie de remporter votre voyage de rêve ? Encore un peu de patience et rendez-vous le 1er Mai 2017 !',
@@ -256,12 +256,12 @@ module.exports = [{
         buttonText: 'CONTINUER'
     }
 },{
-    id: 'be-fr',
+    id: 'be/summer-fr',
     gtm: 'GTM-T7CQMJG',
-    title:'Promo Summer',
+    title:'Coca-Cola Summer',
     header: {
-        desktop: 'img/summer-2880x887-desktop-be.jpg',
-        mobile: 'img/summer-768x473-mobile-be.jpg'
+        desktop: 'summer-2880x887-desktop-be.jpg',
+        mobile: 'summer-768x473-mobile-be.jpg'
     },
     section: {
         title: 'ENVIE DE REMPORTER TON VOYAGE DE RÊVE? UN PEU DE PATIENCE, C\'EST POUR BIENTÔT!',
@@ -291,12 +291,12 @@ module.exports = [{
         buttonText: 'CONTINUER'
     }
 },{
-    id: 'be-nl',
+    id: 'be/summer-nl',
     gtm: 'GTM-T7CQMJG',
-    title:'Promo Summer',
+    title:'Coca-Cola Summer',
     header: {
-        desktop: 'img/summer-2880x887-desktop-be.jpg',
-        mobile: 'img/summer-768x473-mobile-be.jpg'
+        desktop: 'summer-2880x887-desktop-be.jpg',
+        mobile: 'summer-768x473-mobile-be.jpg'
     },
     section: {
         title: 'BINNENKORT… MAAK JIJ HIER KANS OP JOUW DROOMVAKANTIE!',
@@ -329,12 +329,12 @@ module.exports = [{
         buttonText: 'GA DOOR'
     }
 },{
-    id: 'dk-dk',
+    id: 'dk/summer',
     gtm: 'GTM-T9PP784',
-    title:'Promo Summer',
+    title:'Coca-Cola Summer',
     header: {
-        desktop: 'img/summer-2880x887-desktop-dk.jpg',
-        mobile: 'img/summer-768x473-mobile-dk.jpg'
+        desktop: 'summer-2880x887-desktop-dk.jpg',
+        mobile: 'summer-768x473-mobile-dk.jpg'
     },
     section: {
         title: 'DIN CHANCE FOR EN FANTASTISK SOMMER ER IKKE KLAR ENDNU',
@@ -367,12 +367,12 @@ module.exports = [{
         buttonText: 'FORTSÆT'
     }
 },{
-    id: 'de-de',
+    id: 'de/sommer',
     gtm: 'GTM-5SB4R9G',
-    title:'Promo Summer',
+    title:'Coca-Cola Sommer',
     header: {
-        desktop: 'img/summer-2880x887-desktop-de.jpg',
-        mobile: 'img/summer-768x473-mobile-de.jpg'
+        desktop: 'summer-2880x887-desktop-de.jpg',
+        mobile: 'summer-768x473-mobile-de.jpg'
     },
     section: {
         title: 'DEINE CHANCE AUF EINEN GRANDIOSEN SOMMER FINDEST DU DEMNÄCHST HIER.',
@@ -405,41 +405,41 @@ module.exports = [{
         buttonText: 'WEITER'
     }
 },{
-    id: 'sample',
+    id: 'is/sumar',
     gtm: 'GTM-5SB4R9G',
-    title:'Promo Summer',
+    title:'Coca-Cola Sumar',
     header: {
-        desktop: 'https://s3.amazonaws.com/easter-german-public/assets/img/58888d6b508ebb130a8b4567.jpg',
-        mobile: 'https://s3.amazonaws.com/easter-german-public/assets/img/588a1e35508ebb6c028b456b.jpg'
+        desktop: 'summer-2880x887-desktop-de.jpg',
+        mobile: 'summer-768x473-mobile-de.jpg'
     },
     section: {
-        title: 'DEINE CHANCE AUF EINEN GRANDIOSEN SOMMER FINDEST DU DEMNÄCHST HIER.',
-        text: 'AB DEM 08.05. FINDEST DU HIER MEHR INFORMATIONEN.',
-        buttonText: 'WEITER ZU COKE.DE',
-        link:'https://www.cocacola.de/de/home/'
+        title: 'TÆKIFÆRIÐ ÞITT TIL AÐ EIGA ÓGLEYMANLEGT SUMAR ER HANDAN VIÐ HORNIÐ.',
+        text: 'FYLGSTU MEÐ. HERLEGHEITIN HEFJAST 01.05.2017',
+        buttonText: 'FARA Á COKE.IS',
+        link:'https://www.cocacola.is/heim/'
     },
     footer: {
         links: [{
-            text: 'Nutzungsbedingungen',
-            link: 'https://www.cocacola.de/de/legal/nutzungsbedingungen/'
+            text: 'Notkunarskilmálar',
+            link: 'https://www.cocacola.is/legal/skilmalar/'
         },{
-            text: 'Melde dich bei uns',
-            link: 'https://www.cocacola.de/de/legal/kontakt/'
+            text: 'Hafðu samband',
+            link: 'https://www.cocacola.is/legal/hafa-samband/'
         },{
-            text: 'Datenschutz',
-            link: 'https://www.cocacola.de/de/legal/datenschutz/'
+            text: 'Stefna um persónuvernd',
+            link: 'https://www.cocacola.is/legal/personuvernd/'
         },{
-            text: 'Umgang mit Cookies',
-            link: 'https://www.cocacola.de/de/legal/umgang-mit-cookies/'
+            text: 'Hvernig við notum vafrakökur',
+            link: 'https://www.cocacola.is/legal/vafrakokur/'
         },{
-            text: 'Impressum',
-            link: 'https://www.cocacola.de/de/legal/impressum/'
+            text: 'Vífilfell',
+            link: 'http://www.vifilfell.is/'
         }],
-        legals: "© 2017 Coca‑Cola. Coke, Coca‑Cola Life, Coca‑Cola Light, Coca‑Cola Zero, Coke Zero, die Konturflasche, die dynamische Welle, das rote Rundlogo sind eingetragene Schutzmarken der The Coca‑Cola Company."
+        legals: "© 2017 The Coca‑Cola Company. 'Coca‑Cola', 'Coke', 'Coke Light', 'Coca‑Cola Light', 'Coca‑Cola Zero', 'Coke Zero', 'Coca‑Cola Life' og hönnunin á útlínuflösku Coca‑Cola eru skráð vörumerki The Coca‑Cola Company. Allur réttur áskilinn."
     },
     cookies: {
-        title: 'DATENSCHUTZ UND VERWENDUNG VON COOKIES',
-        text: 'Coca-Cola verwendet Cookies, um dir beim Besuch unserer Webseiten das bestmögliche Online-Erlebnis zu bieten. Wenn du damit einverstanden bist, klicke auf weiter. Wenn du mehr wissen oder diese Nachricht noch einmal angezeigt haben möchtest, dann <a href="https://www.cocacola.de/de/legal/umgang-mit-cookies/" target="_blank">klicke hier</a>.',
-        buttonText: 'WEITER'
+        title: 'Persónuvernd þín og notkun okkar á vafrakökum',
+        text: 'Við notum vafrakökur til að fá sum svæði vefsvæðis okkar til að virka. Ef það er í lagi þín vegna skaltu halda áfram. Ef þú vilt fá nánari upplýsingar eða færð þessi skilaboð aftur og aftur, <a href="https://www.cocacola.is/legal/vafrakokur/" target="_blank">smelltu hér</a>.',
+        buttonText: 'Áfram'
     }
 }]
