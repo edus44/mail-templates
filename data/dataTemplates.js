@@ -404,4 +404,42 @@ module.exports = [{
         text: 'Coca-Cola verwendet Cookies, um dir beim Besuch unserer Webseiten das bestmögliche Online-Erlebnis zu bieten. Wenn du damit einverstanden bist, klicke auf weiter. Wenn du mehr wissen oder diese Nachricht noch einmal angezeigt haben möchtest, dann <a href="https://www.cocacola.de/de/legal/umgang-mit-cookies/" target="_blank">klicke hier</a>.',
         buttonText: 'WEITER'
     }
+},{
+    id: 'sample',
+    gtm: 'GTM-5SB4R9G',
+    title:'Promo Summer',
+    header: {
+        desktop: 'https://s3.amazonaws.com/easter-german-public/assets/img/58888d6b508ebb130a8b4567.jpg',
+        mobile: 'https://s3.amazonaws.com/easter-german-public/assets/img/588a1e35508ebb6c028b456b.jpg'
+    },
+    section: {
+        title: 'DEINE CHANCE AUF EINEN GRANDIOSEN SOMMER FINDEST DU DEMNÄCHST HIER.',
+        text: 'AB DEM 08.05. FINDEST DU HIER MEHR INFORMATIONEN.',
+        buttonText: 'WEITER ZU COKE.DE',
+        link:'https://www.cocacola.de/de/home/'
+    },
+    footer: {
+        links: [{
+            text: 'Nutzungsbedingungen',
+            link: 'https://www.cocacola.de/de/legal/nutzungsbedingungen/'
+        },{
+            text: 'Melde dich bei uns',
+            link: 'https://www.cocacola.de/de/legal/kontakt/'
+        },{
+            text: 'Datenschutz',
+            link: 'https://www.cocacola.de/de/legal/datenschutz/'
+        },{
+            text: 'Umgang mit Cookies',
+            link: 'https://www.cocacola.de/de/legal/umgang-mit-cookies/'
+        },{
+            text: 'Impressum',
+            link: 'https://www.cocacola.de/de/legal/impressum/'
+        }],
+        legals: "© 2017 Coca‑Cola. Coke, Coca‑Cola Life, Coca‑Cola Light, Coca‑Cola Zero, Coke Zero, die Konturflasche, die dynamische Welle, das rote Rundlogo sind eingetragene Schutzmarken der The Coca‑Cola Company."
+    },
+    cookies: {
+        title: 'DATENSCHUTZ UND VERWENDUNG VON COOKIES',
+        text: 'Coca-Cola verwendet Cookies, um dir beim Besuch unserer Webseiten das bestmögliche Online-Erlebnis zu bieten. Wenn du damit einverstanden bist, klicke auf weiter. Wenn du mehr wissen oder diese Nachricht noch einmal angezeigt haben möchtest, dann <a href="https://www.cocacola.de/de/legal/umgang-mit-cookies/" target="_blank">klicke hier</a>.',
+        buttonText: 'WEITER'
+    }
 }]

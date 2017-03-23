@@ -1,0 +1,336 @@
+/**************************		COLORS		**************************/
+
+// MAIN COLORS
+$primary-color:                             #e91721;
+$secondary-color:                           #FFFFFF;
+$tertiary-color:                            #000000;
+$quaternary-color:                          #d5d5d5;
+$quinary-color:                             #f40000;
+
+
+
+// LAYOUT COLORS
+/* Backgrounds-colors */
+$bg-color:                                  $secondary-color;
+$footer-bg-color:                           $primary-color;
+/* Fonts-colors */
+$font-color:                                #474747;
+$footer-font-color:                         $secondary-color;
+$footer-font-color-hover:                   $tertiary-color;
+$header-font-color:                         #4a4a4a;
+$header-border-color:                       $quinary-color;
+$subheader-font-color:                      $primary-color;
+$link-color:                                $primary-color;
+$spin-color:                                $primary-color;
+$link-hover-color:                          darken($link-color, 10);
+$cookies-icon-hover-color:                  $primary-color;
+$input-font-color:                          $font-color;
+$input-placeholder-color:                   lighten($input-font-color, 60);
+$button-font-color:                         $secondary-color;
+$button-bg-color:                           $primary-color;
+$button-bg-hover-color:                     darken($button-bg-color, 10);
+$modal-bg-color:                            $bg-color;
+$modal-font-color:                          $font-color;
+$modal-header-font-color:                   $font-color;
+$modal-header-bg-color:                     $quaternary-color;
+$modal-content-font-color:                  $font-color;
+$modal-content-bg-color:                    $bg-color;
+$modal-footer-font-color:                   $font-color;
+$modal-footer-bg-color:                     $modal-header-bg-color;
+$cookies-bg-color:                          $bg-color;
+$close-button-bg-color:                     $primary-color;
+$close-button-font-color:                   $modal-bg-color;
+$checkbox-color:                            $primary-color;
+$choose-prize-header-bg-color:              $primary-color;
+$choose-prize-header-font-color:            $bg-color;
+$choose-prize-footer-bg-color:              $bg-color;
+$choose-prize-footer-font-color:            $font-color;
+$choose-prize-active-color:                 $button-bg-hover-color;
+$spinner-color:                             $primary-color;
+$cookies-header-font-color:                 $header-font-color;
+
+
+
+/* Borders */
+$border-color:                              $primary-color;
+$input-border-color:                        $primary-color;
+
+/* Shadows */
+$cookies-shadow:                            0 0.3125rem 1.25rem 0 rgba(0, 0, 0, 0.75);
+
+/* Special Colors */
+$cookies-button-bg-color:                   #eaeaea;
+$cookies-button-font-color:                 #999999;
+$cookies-button-border-color:               #999999;
+$cookies-font-color:                        #474747;
+
+// STATE COLORS
+$success-color:                             #64AE29;
+$error-color:                               $primary-color;
+$close-color:                               $error-color;
+$focus-color:                               darken($primary-color, 10);
+
+/**************************			FONTS		**************************/
+
+// FONT WEIGHT
+/* Bulma font-weight */
+// $weight-light	300
+// $weight-normal	400
+// $weight-semibold	500
+// $weight-bold	700
+$body-weight:200;
+$header-weight:500;
+$subheader-weight:400;
+$footer-links-weight:400;
+$button-weight:normal;
+$footer-weight:100;
+$main-links-weight:bold;
+$links-weight:normal;
+
+$modal-header-weight:$body-weight;
+$modal-content-weight:$body-weight;
+$modal-footer-weight:$body-weight;
+$cookies-header-weight:$body-weight;
+$cookies-content-weight:$body-weight;
+
+$links-decoration:underline;
+$footer-links-decoration:none;
+$button-text-transform:uppercase;
+$cookies-button-text-transform:$button-text-transform;
+// $footer-weight
+
+// FONT SIZE
+$base-fs:                                   1rem;
+$min-fs:                                    0.85rem;
+$header-fs:                                 2.125rem;
+$subheader-fs:                              1.5rem;
+$icon-fs:                                   1.5rem;
+$cookies-header-fs:                         $header-fs;
+$cookies-button-fs:                         0.875rem;
+$cookies-content-fs:                        $min-fs;
+$cookies-icon-fs:                           $icon-fs;
+$legal-fs:                                  $min-fs;
+$body-fs:                                   $base-fs;
+$button-fs:                                 $min-fs;
+$label-fs:                                  $base-fs;
+$input-fs:                                  $base-fs;
+$tip-fs:                                    $min-fs;
+$footer-fs:                                 $min-fs;
+$delete-fs:                                 $icon-fs;
+$legend-fs:                                 $min-fs;
+$modal-header-fs:                           $subheader-fs;
+$modal-content-fs:                          $base-fs;
+$modal-footer-fs:                           $min-fs;
+$line-height-base:                          initial;
+$choose-prize-header-fs:                    $subheader-fs;
+$choose-prize-footer-fs:                    $tip-fs;
+
+/**************************     FONTS     **************************/
+// GOTHAM
+@font-face {
+  font-family: 'Gotham';
+  src:  url('../fonts/Gotham-Light.woff') format('woff'),
+      url('../fonts/Gotham-Light.ttf') format('truetype'),
+      url('../fonts/Gotham-Light.otf') format('otf'),
+      url('../fonts/Gotham-Light.svg') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src:  url('../fonts/Gotham-Book.woff') format('woff'),
+      url('../fonts/Gotham-Book.ttf') format('truetype'),
+      url('../fonts/Gotham-Book.otf') format('otf'),
+      url('../fonts/Gotham-Book.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src:  url('../fonts/Gotham-Medium.woff') format('woff'),
+      url('../fonts/Gotham-Medium.ttf') format('truetype'),
+      url('../fonts/Gotham-Medium.otf') format('otf'),
+      url('../fonts/Gotham-Medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src:  url('../fonts/Gotham-Bold.woff') format('woff'),
+      url('../fonts/Gotham-Bold.ttf') format('truetype'),
+      url('../fonts/Gotham-Bold.otf') format('otf'),
+      url('../fonts/Gotham-Bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+//CC-GO (ICONS)
+@font-face {
+  font-family: 'cc-go';
+  src:  url('../fonts/cc-go.woff') format('woff'),
+      url('../fonts/cc-go.ttf') format('truetype'),
+      url('../fonts/cc-go.eot') format('otf'),
+      url('../fonts/cc-go.svg') format('svg');
+  font-style: normal;
+}
+
+$font-family-base: 'Gotham', sans-serif;
+$font-family-icons: 'cc-go', sans-serif;
+// $font-family-icons: 'janrain-icons';
+
+/**************************		LAYOUT DISPLAY	**************************/
+$reset:                                     0;
+$bit-small-padding:                         0.3rem;
+$small-padding:                             0.625rem;
+$padding:                                   1rem;
+$medium-padding:                            2rem;
+$large-padding:                             3rem;
+$body-min-height:                           40rem;
+$choose-prize-height:                       15rem;
+$choose-prize-border-width:                 2rem;
+$img-header-border-width:                   0.625rem;
+$img-header-border-width-desktop:           1.1125rem;
+$choose-prize-border-top-width:             $choose-prize-border-width / 4;
+$choose-prize-hover-border-width:           $choose-prize-border-width * 0.4;
+$choose-prize-header-padding:               $choose-prize-border-top-width / 2;   
+$choose-prize-footer-margin:                $choose-prize-border-width / 10;
+$choose-prize-footer-padding:               $choose-prize-footer-margin / 2;
+$choose-prize-footer-opacity:               0.7;
+$text-align:                                center;
+$image-header-padding:                      $reset;
+$image-header-margin:                       $reset;
+$content-header-padding:                    $padding;
+$content-header-margin:                     $reset;
+$header-padding:                            $reset;
+$text-content-padding:                      $medium-padding $reset $large-padding $reset; 
+$p-padding:                                 $padding*0.75 $reset;
+$content-padding:                           $padding $padding*1.25;
+$content-margin:                            $reset $large-padding/2;
+$form-padding:                              $reset $padding;
+$form-margin:                               $reset $padding;
+$input-padding:                             $small-padding*2 $padding/2;
+$input-margin:                              $padding auto;
+$label-padding:                             $reset;
+$label-margin:                              $reset $bit-small-padding;
+$button-margin:                             $reset $bit-small-padding;
+$button-padding:                            1.3rem 0.7rem;
+$tip-margin:                                $reset;
+$tip-padding:                               $bit-small-padding;
+$cookies-padding:                           $small-padding 1.875rem;
+$cookies-header-padding:                    0.5rem;
+$cookies-margin:                            $button-padding;
+$cookies-close-button-margin:               0.5rem;
+$cookies-button-padding:                    $button-padding;
+$cookies-button-margin:                     2rem auto 1rem auto;
+$footer-padding:                            $medium-padding;
+$footer-link-padding:                       $reset $padding;
+$footer-margin:                             $reset;
+$box-width:                                 50rem;
+$button-width:                              20rem;
+$cookies-button-width:                      12.25rem;
+$input-width:                               $button-width;
+$textarea-width:                            $button-width * 1.5;
+$textarea-min-width:                        $button-width;
+$textarea-max-height:                       30rem;
+$textarea-min-height:                       10rem;
+$border-size:                               0.0625rem;//1px
+$border-radius:                             0.375rem;//5px
+// $border-radius:                             0;//5px
+$choose-prize-border-radius:                $border-radius;
+$border-button-bottom-size:                 0.625rem;
+$border-style:                              solid;
+$border-main:                               $border-size $border-style $border-color;
+$border-button-bottom:                      $border-button-bottom-size $border-style $button-bg-hover-color;
+$border-cookies-button-size:                $border-button-bottom-size;
+$border-cookies-button:                     none;
+$choose-prize-border:                       $border-main;
+$button-text-shadow:                        $reset $border-size $border-size rgba(0,0,0,0.45);
+$cookies-text-shadow:                       $reset 0.3125rem 1.25rem $reset rgba(0, 0, 0, 0.75);
+$container-margin:                          $reset auto;
+$container-padding:                         2.5rem $reset 2.5rem $reset;
+$checkbox-size:                             1.25rem;
+$checkbox-bg-size:                          0.9rem;
+$checkbox-margin:                           0.5rem;
+$checkbox-padding:                          0.13rem;
+$radio-margin:                              $checkbox-margin;
+$radio-size:                                $checkbox-size;
+$radio-checked-size:                        0.5rem;
+$radio-padding:                             0.32rem 0.30rem;
+$terms-padding:                             1.5rem 0;
+$image-margin:                              2.5rem auto;
+$image-min-height:                          15rem;
+$header-min-height:                         $image-min-height;
+$image-spinner-size:                        4rem;
+$image-spinner-border-width:                0.5rem;
+$survey-margin:                             $input-margin;
+$survey-width:                              $button-width*1.5;
+$survey-min-height:                         10rem;
+$answer-legend-margin-top:                  -1rem;
+$answer-padding:                            0.5rem 0;
+$answer-margin:                             $checkbox-margin;
+$modal-radius:                              $border-radius;
+$modal-content-padding:                     $container-padding;
+$legal-padding:                             $terms-padding;
+$close-button-size:                         1.5rem;
+$close-button-medium-size:                  $medium-padding;
+$close-button-small-size:                   $padding;
+$close-button-large-size:                   2.5rem;
+$loading-icon-size:                         4rem;
+$loading-preserve-space:                    15rem;
+
+
+/**************************   TRANSITIONS	**************************/
+$animation-milisecs:                        300;
+$animation-time:                            $animation-milisecs/1000 * 1s;
+$transition-enter-milisecs:                 300;
+$animation-enter-time:                      $transition-enter-milisecs/1000 * 1s;
+$fade-distance:                             1rem;
+$animation-survey-milisecs:                 150;
+$animation-survey-time:                     $animation-survey-milisecs/1000 * 1s;
+$animation-transition-milisecs:             $animation-survey-milisecs;
+$animation-transition-time:                 $animation-transition-milisecs/1000 * 1s;
+$cookies-button-transition:                 color $animation-time ease-out,background-color $animation-time ease-out;
+
+/*** USED AND NEW VARS ***/
+/*
+  $reset
+  $base-fs
+  $font-family-base
+  $box-width
+  $font-color
+  $text-align
+  $body-weight
+  $line-height-base
+  $link-color
+  $bg-color
+  $header-fs
+  $header-weight
+  $header-font-color //new
+  $button-fs //new
+  $button-padding //new
+  $header-border-color  //new
+  $button-width
+  $animation-time
+  $footer-weight
+*/
+$hero-padding:                              3rem 1.5rem;
+$margin-distance:                           1.5rem;
+
+/**************************   EXPORTED VARS	**************************/
+:export { 
+  closeButtonBgColor:             $close-button-bg-color;
+  closeButtonFontColor:           $close-button-font-color;
+  checkboxColor:                  $checkbox-color;
+  animationMilisecs:              $animation-milisecs;
+  animationSurveyMilisecs:        $animation-survey-milisecs;
+  animationTransitionMilisecs:    $animation-transition-milisecs;
+  fadeDistance:                   $fade-distance;
+  spinColor:                      $spin-color;
+}

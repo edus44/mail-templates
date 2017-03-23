@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node build holding",
     "build": "node build holding; webpack; npm run build-css",
-    "build-css": "./node_modules/node-sass/bin/node-sass templates/scss/main.scss -o output/holding/css && ./node_modules/postcss-cli/bin/postcss --use autoprefixer -b 'last 2 versions' <output/holding/css/main.css"
+    "build-css": "./node_modules/node-sass/bin/node-sass templates/scss/main.scss -o output/holding/css && ./node_modules/postcss-cli/bin/postcss output/holding/css/main.css --use autoprefixer -b 'last 2 versions' -o output/holding/css/main.css"
   },
   "author": "",
   "license": "ISC",
