@@ -265,7 +265,7 @@ module.exports = [{
     },
     section: {
         title: 'ENVIE DE REMPORTER TON VOYAGE DE RÊVE? UN PEU DE PATIENCE, C\'EST POUR BIENTÔT!',
-        text: 'STAY TUNED ET REVIENS A PARTIR DU 24 AVRIL 2017',
+        text: 'Conserve tes codes et reviens à partir du 24 avril! ',
         buttonText: 'Vers notre site',
         link:'https://www.cocacola.be/fr/home/'
     },
@@ -300,7 +300,7 @@ module.exports = [{
     },
     section: {
         title: 'BINNENKORT… MAAK JIJ HIER KANS OP JOUW DROOMVAKANTIE!',
-        text: 'STAY TUNED  EN KOM ZEKER TERUG VANAF 24 APRIL 2017',
+        text: 'Hou jouw codes bij en kom zeker terug vanaf 24 april!',
         buttonText: 'Naar onze website',
         link:'https://www.cocacola.be/nl/home/'
     },
