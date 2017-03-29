@@ -117,7 +117,7 @@ module.exports = [{
     section: {
         title: 'YOUR CHANCE TO ENJOY AN AMAZING SUMMER IS COMING SOON...',
         text: 'STAY TUNED. MORE TO COME ON 10/05/2017',
-        buttonText: 'TO COCA-COLA.CO.UK',
+        buttonText: 'TO COCACOLA.CO.UK',
         link:'https://www.cocacola.co.uk/home/'
     },
     footer: {
