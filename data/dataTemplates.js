@@ -187,8 +187,8 @@ module.exports = [{
     gtm: 'GTM-WQMKQNK',
     title:'Coca-Cola Sommer',
     header: {
-        desktop: 'summer-2880x887-desktop.jpg',
-        mobile: 'summer-768x473-mobile.jpg'
+        desktop: 'summer-2880x887-desktop-no.jpg',
+        mobile: 'summer-768x473-mobile-no.jpg'
     },
     section: {
         title: 'DIN SJANSE FOR EN FANTASTISK SOMMER HAR IKKE KOMMET HELT ENNÅ',
@@ -338,7 +338,7 @@ module.exports = [{
     },
     section: {
         title: 'DIN CHANCE FOR EN FANTASTISK SOMMER ER IKKE KLAR ENDNU',
-        text: 'HOLD ØJE MED DENNE SIDE. DER KOMMER MEGET MERE D. 1. JUNI.',
+        text: 'HOLD ØJE MED DENNE SIDE. DER KOMMER MEGET MERE D. 08.05.',
         buttonText: 'GÅ TIL COKE.DK',
         link:'http://www.cocacola.dk/home/'
     },
@@ -376,7 +376,7 @@ module.exports = [{
     },
     section: {
         title: 'DEINE CHANCE AUF EINEN GRANDIOSEN SOMMER FINDEST DU DEMNÄCHST HIER.',
-        text: 'AB DEM 08.05. FINDEST DU HIER MEHR INFORMATIONEN.',
+        text: 'AB DEM 08.05. KANNST DU MIT DEINEM CODE TEILNEHMEN.',
         buttonText: 'WEITER ZU COKE.DE',
         link:'https://www.cocacola.de/de/home/'
     },
@@ -409,8 +409,8 @@ module.exports = [{
     gtm: 'GTM-5SB4R9G',
     title:'Coca-Cola Sumar',
     header: {
-        desktop: 'summer-2880x887-desktop-de.jpg',
-        mobile: 'summer-768x473-mobile-de.jpg'
+        desktop: 'summer-2880x887-desktop-is.jpg',
+        mobile: 'summer-768x473-mobile-is.jpg'
     },
     section: {
         title: 'TÆKIFÆRIÐ ÞITT TIL AÐ EIGA ÓGLEYMANLEGT SUMAR ER HANDAN VIÐ HORNIÐ.',
