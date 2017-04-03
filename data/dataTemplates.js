@@ -338,7 +338,7 @@ module.exports = [{
     },
     section: {
         title: 'DIN CHANCE FOR EN FANTASTISK SOMMER ER IKKE KLAR ENDNU',
-        text: 'HOLD ØJE MED DENNE SIDE. DER KOMMER MEGET MERE D. 8. MAJ',
+        text: 'HOLD ØJE MED DENNE SIDE. DER KOMMER MEGET MERE D. 8. MAJ.',
         buttonText: 'GÅ TIL COKE.DK',
         link:'http://www.cocacola.dk/home/'
     },
