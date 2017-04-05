@@ -406,7 +406,7 @@ module.exports = [{
     }
 },{
     id: 'is/sumar',
-    gtm: 'GTM-5SB4R9G',
+    gtm: 'GTM-PLCMW2L',
     title:'Coca-Cola Sumar',
     header: {
         desktop: 'summer-2880x887-desktop-is.jpg',
